@@ -1,16 +1,29 @@
-# ezridev1
+# Ride & Buy Mobile
 
-A new Flutter project.
+**Technologies & Tools**
 
-## Getting Started
+`Flutter 3.22.0` `Dart` `Clean Architecture` `PostgreSQL` `PostgREST` `Render` `AWS` `AWS Rekognition` `OpenAI` `Azure AI` `Wompi` `SendGrid` `Material Design`
 
-This project is a starting point for a Flutter application.
+> Mobile car rental platform focused on location-based vehicle discovery, identity verification, digital payments, rental management, and role-based business operations.
 
-A few resources to get you started if this is your first Flutter project:
+## Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ride & Buy Mobile is a mobile car rental platform developed with Flutter and Dart. The application connects users with nearby rental businesses based on their current location, allowing them to discover available vehicles within a 30 km radius.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The platform combines location-based search, multi-step identity verification, facial recognition, AI-assisted vehicle validation, digital payments, QR-based rental verification, and role-based functionality for both customers and rental business administrators.
+
+## Core Technologies
+
+| Technology         | Purpose                                                                       |
+| ------------------ | ----------------------------------------------------------------------------- |
+| Flutter 3.22.0     | Cross-platform mobile application development                                 |
+| Dart               | Application programming language                                              |
+| Clean Architecture | Separation of presentation, domain, data, and infrastructure responsibilities |
+| PostgreSQL         | Persistent data storage                                                       |
+| PostgREST          | API layer for database communication                                          |
+| Render             | Backend infrastructure                                                        |
+| AWS Rekognition    | Facial recognition and identity verification                                  |
+| OpenAI / Azure AI  | AI-assisted vehicle and license plate identification                          |
+| Wompi              | Rental payment processing                                                     |
+| SendGrid           | OTP email delivery                                                            |
+| Material Design    | Mobile UI system and component design                                         |
